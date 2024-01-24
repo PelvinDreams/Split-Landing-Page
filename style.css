@@ -213,3 +213,29 @@ body {
     font-size: 30px;
     padding: 0 20px;
   } */
+
+  @media screen and (max-width: 860px) {
+    .content {
+      width: 100%;
+    }
+    .text {
+     width: 50%;
+     position: absolute;
+     top: 55%;
+     left: 40%;
+    }
+    .text .title {
+      font-size: 30px;
+    }
+    .text .desc{
+      width: 150px;
+      font-weight: bold;
+    }
+   
+  }
+
+  @media screen and (max-width: 560px) {
+    .text .button .button2 {
+      padding: 12px 20px;
+    }
+  }
